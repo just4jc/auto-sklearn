@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210614
 
 # System requirements
 RUN apt-get update && apt-get install -y \
