@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 
 # System requirements
 RUN apt-get update && apt-get install -y \
