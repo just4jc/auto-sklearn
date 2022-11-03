@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 
 # System requirements
 RUN apt-get update && apt-get install -y \
